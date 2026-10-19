@@ -60,7 +60,10 @@ function Form() {
                     value={taskText}
                     onChange={(e) => setTaskText(e.target.value)}
                 />
-
+                <link
+                rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+                />
                 <button type="submit" id="Add" aria-label="Add task">
                     <i className="fa-solid fa-plus"></i>
                 </button>
